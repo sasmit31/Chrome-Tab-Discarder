@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Manual Tab Discarder",
+  "version": "1.0",
+  "description": "Manually pause tabs to save memory",
+  "permissions": ["tabs", "contextMenus"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
