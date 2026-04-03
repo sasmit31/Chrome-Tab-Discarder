@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { width: 320px; font-family: sans-serif; padding: 12px; }
+    button { margin: 4px 0; padding: 8px 12px; cursor: pointer; width: 100%; }
+    #tabList { margin-top: 10px; }
+    .tab-row { display: flex; justify-content: space-between; align-items: center; padding: 4px 0; border-bottom: 1px solid #eee; }
+    .discard-btn { padding: 4px 8px; font-size: 12px; }
+    .discarded { color: gray; font-style: italic; }
+  </style>
+</head>
+<body>
+  <h3>🧠 Tab Discarder</h3>
+  <button id="discardAllBtn">Discard All Inactive Tabs</button>
+  <div id="tabList"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
