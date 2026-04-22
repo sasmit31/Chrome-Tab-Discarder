@@ -7,3 +7,4 @@ SETUP:
 
 USE:
 Now, right click on desired tab and select "Pause Tab"
+Also, click on extensions and pause tabs from the dropdown menu
